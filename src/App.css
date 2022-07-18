@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.padre {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container {
+  top: 40%;
+  left: 50%;
+  padding: 12px 24px;
+  height: 290px;
+  width: 300px;
+  background-color: aqua;
+  border-radius: 20px;
+}
+
+.contenedor-padre {
+  display: grid;
+  place-items: center;
+}
+
+.card-container {
+  margin-top: 6rem;
+  gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.users-list {
+  background-color: rgba(253, 251, 251, 0.632);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.492);
+  padding: 10px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+
+.clear {
+  background-color: #e17050;
+  width: 90px;
+  height: 27px;
+  border: none;
+  box-shadow: 2px 2 gray;
+  margin-right: 0.5rem;
+}
+.edit {
+  background-color: #2ef8a0;
+  width: 90px;
+  height: 30px;
+  border: none;
+  box-shadow: 2px 2px gray;
+}
+
+.created {
+  background-color: #2ef8a0;
+  width: 90px;
+  height: 30px;
+  border: none;
+  box-shadow: 2px 2px gray;
+}
+
+.clear {
+  background-color: #e17050;
+  width: 90px;
+  height: 30px;
+  border: none;
+  box-shadow: 2px 2px gray;
+}
