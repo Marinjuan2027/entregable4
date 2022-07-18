@@ -52,6 +52,7 @@ ul {
   border: none;
   box-shadow: 2px 2 gray;
   margin-right: 0.5rem;
+  border-radius: 5px;
 }
 .edit {
   background-color: #2ef8a0;
@@ -59,6 +60,7 @@ ul {
   height: 30px;
   border: none;
   box-shadow: 2px 2px gray;
+  border-radius: 5px;
 }
 
 .created {
@@ -67,6 +69,7 @@ ul {
   height: 30px;
   border: none;
   box-shadow: 2px 2px gray;
+  border-radius: 5px;
 }
 
 .clear {
@@ -75,4 +78,5 @@ ul {
   height: 30px;
   border: none;
   box-shadow: 2px 2px gray;
+  border-radius: 5px;
 }
